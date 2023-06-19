@@ -1,6 +1,6 @@
 const nums = [1,2,2,3];
 
-var isMonotonic = function(digits) {
+var isMonotonic = function(nums) {
 
   let increasing = true;
     let decreasing = true;
