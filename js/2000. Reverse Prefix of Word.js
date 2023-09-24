@@ -4,6 +4,8 @@ var reversePrefix = function(word, ch) {
   
     let left = 0;
     let right = word.indexOf(ch);
+
+    //console.log(right);return;
     
     if(right === -1) return word;
        
